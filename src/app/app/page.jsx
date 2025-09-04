@@ -31,6 +31,8 @@ export default function HomePage() {
   const [showSpinnerWheel, setShowSpinnerWheel] = useState(false);
 
   const fetchSuggestions = async () => {
+    console.log("Form data:", { mode, location, preferences, ingredients });
+    
     setIsLoading(true);
     setError(null);
     setSuggestions([]);
@@ -143,6 +145,11 @@ export default function HomePage() {
         </motion.header>
 
         <ModeToggle currentMode={mode} onModeChange={setMode} />
+
+        {/* Debug info - remove this later */}
+        <div className="mb-4 p-2 bg-gray-100 rounded text-xs">
+          <p>Debug: Mode={mode}, Location="{location}", Preferences="{preferences}", Ingredients="{ingredients}"</p>
+        </div>
 
         {mode === "eatOut" ? (
           <InputForm

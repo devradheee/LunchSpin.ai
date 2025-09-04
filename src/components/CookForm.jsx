@@ -27,8 +27,9 @@ const CookForm = ({ ingredients, setIngredients, onSubmit, isLoading }) => {
           onChange={(e) => setIngredients(e.target.value)}
           rows={3}
           placeholder="e.g., pasta, garlic, tomato, onion, cheese..."
-          className="w-full px-4 py-2 bg-white/70 backdrop-blur-sm border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="w-full px-4 py-2 bg-white border border-gray-300 rounded-lg text-sm text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500"
           required
+          style={{ color: '#111827' }}
         />
         <p className="text-xs text-gray-500">
           {"List your main ingredients. We'll suggest recipes you can cook!"}

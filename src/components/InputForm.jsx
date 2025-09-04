@@ -66,8 +66,9 @@ const InputForm = ({
               setUseLiveLocation(false);
             }}
             placeholder="e.g., Delhi, New York..."
-            className="flex-1 px-4 py-2 bg-white/70 backdrop-blur-sm border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
+            className="flex-1 px-4 py-2 bg-white border border-gray-300 rounded-lg text-sm text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400"
             disabled={useLiveLocation}
+            style={{ color: '#111827' }}
           />
           <button
             type="button"
@@ -92,8 +93,9 @@ const InputForm = ({
           onChange={(e) => setPreferences(e.target.value)}
           rows={2}
           placeholder="e.g., spicy, vegetarian, quick..."
-          className="w-full px-4 py-2 bg-white/70 backdrop-blur-sm border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
+          className="w-full px-4 py-2 bg-white border border-gray-300 rounded-lg text-sm text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400"
           required
+          style={{ color: '#111827' }}
         />
       </div>
 
