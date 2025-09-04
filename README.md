@@ -104,5 +104,5 @@ The response schema is strictly typed and validated for consistency across user 
 ### 📬 Contact
 
 * GitHub: [@devradheee](https://github.com/devradheee)
-* LinkedIn: [Radheshyam Kushawaha](https://www.linkedin.com/in/Radheshyam-choudhary-7688b91ba/)
+* LinkedIn: [Radheshyam Kushawaha](https://www.linkedin.com/in/radheshyam-kumar/)
 * Portfolio: [Radheshyam-portfolio](https://radheee.vercel.app/)

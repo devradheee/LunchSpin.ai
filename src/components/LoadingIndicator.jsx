@@ -1,3 +1,4 @@
+"use client";
 import { Utensils } from "lucide-react";
 import { motion } from "framer-motion";
 

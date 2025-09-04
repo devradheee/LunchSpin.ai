@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import { Utensils, RotateCw, Sparkles } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";

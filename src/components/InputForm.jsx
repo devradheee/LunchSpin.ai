@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import { MapPin, Search, Crosshair } from "lucide-react";
 import { motion } from "framer-motion";

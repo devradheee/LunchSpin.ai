@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { ChefHat, Search } from "lucide-react";
 import { motion } from "framer-motion";

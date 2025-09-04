@@ -1,3 +1,4 @@
+"use client";
 import { Utensils, ChefHat } from "lucide-react";
 import { motion } from "framer-motion";
 
