@@ -76,7 +76,7 @@ Visit `http://localhost:3000` to use LunchSpin locally.
 
 ### 🌐 Live Demo
 
-Experience it live at: [https://lunchspin-ai.vercel.app](https://lunchspin-ai.vercel.app)
+Experience it live at: [https://lunchspin-ai.vercel.app](https://lunch-spin-ai.vercel.app/)
 
 ---
 
